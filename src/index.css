@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Prata", serif;
+}
+
+button {
+   border: none;
+   height: 45px;
+   width: 150px;
+   font-size: 20px;
+   cursor: pointer;
+   background: linear-gradient(45deg, red, blue);
+   color: white;
+   background-size: 200%;
+   border-radius: 30px;
+   background-position: left;
+   transition: .6s;
+}
+
+button:hover {
+   background-position: right;
+   transform: scale(0.95);
+}
