@@ -1,0 +1,9 @@
+.slider_wrapper {
+  background: url(./../../assets/section-bg.jpg) no-repeat;
+  background-size: cover;
+  padding: 30px;
+}
+
+.slide_img {
+  border-radius: 20px;
+}

@@ -99,3 +99,37 @@
       left: 0;
    }
 }
+
+@media screen and (max-width: 768px) {
+   .nav_wrapper ul li {
+      padding-left: 10%;
+      padding: 20px 0;
+   }
+
+   .nav_wrapper .nav_btns i {
+      font-size: 28px;
+      height: 45px;
+      width: 45px;
+   }
+}
+
+@media screen and (max-width: 500px) {
+   .nav_wrapper ul {
+      top: 90%; 
+   }
+
+   .nav_wrapper ul li {
+      padding-left: 8%; 
+      padding: 15px 0;
+   }
+
+   .nav_wrapper .logo span {
+      font-size: 28px; 
+   }
+
+   .nav_wrapper .nav_btns i {
+      font-size: 24px; 
+      height: 40px;
+      width: 40px;
+   }
+}
