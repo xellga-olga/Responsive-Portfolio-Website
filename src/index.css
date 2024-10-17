@@ -9,6 +9,16 @@
   font-family: "Prata", serif;
 }
 
+body{
+   background-color: #00103d;
+}
+
+.section {
+   display: flex;
+   flex-direction: column;
+   padding: 80px 12%;
+}
+
 button {
    border: none;
    height: 45px;

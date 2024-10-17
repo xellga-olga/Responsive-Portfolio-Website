@@ -25,8 +25,13 @@
 }
 
 .nav_wrapper ul li a {
-   color: #1e1e1e;
+   color: #ffffff;
 }
+
+.nav_wrapper ul li:hover a {
+   color: #FF08EF;
+}
+
 
 .nav_wrapper .nav_btns {
    display: flex;
@@ -81,6 +86,7 @@
       width: 100%;
       transition: .6s;
       background-color: rgb(171 161 255 / 16%);
+      backdrop-filter: blur(8px);
    }
 
    .nav_wrapper ul li {
