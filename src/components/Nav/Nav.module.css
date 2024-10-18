@@ -11,6 +11,10 @@
    width: 100%;
 }
 
+.Stickymenu {
+   background-color: rgb(12, 2, 16);
+}
+
 .nav_wrapper .logo span {
    font-size: 38px;
    font-weight: 600;

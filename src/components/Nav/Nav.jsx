@@ -3,13 +3,22 @@ import stylesNav from "./../Nav/Nav.module.css";
 
 function Nav() {
   const menu = useRef();
+  const menuBar = useRef();
 
   const menuHandler = () => {
     menu.current.classList.toggle(stylesNav.showMenu);
   };
 
+  window.addEventListener("scroll", function () {
+    if (window.scrollY > 100) {
+      menuBar.current.classList.add(stylesNav.Stickymenu);
+    } else {
+      menuBar.current.classList.remove(stylesNav.Stickymenu);
+    }
+  });
+
   return (
-    <div className={stylesNav.nav_wrapper}>
+    <div className={stylesNav.nav_wrapper} ref={menuBar}>
       <div className={stylesNav.logo}>
         <span>OlyaPla.</span>
       </div>
