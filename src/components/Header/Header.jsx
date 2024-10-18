@@ -3,7 +3,7 @@ import HeroImg from "../../assets/heroImage.jpg";
 
 const Header = () => {
    return (
-      <div className={`${stylesHeader.header_wrapper} section`}>
+      <div id="home" className={`${stylesHeader.header_wrapper} section`}>
 
          <div className={stylesHeader.header_container}>
             <h1>
