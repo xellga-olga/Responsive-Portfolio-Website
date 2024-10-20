@@ -11,7 +11,7 @@ function Services() {
   return (
     <div id="service" className={`${stylesServices.service_wrapper} section`}>
       <small>My Services</small>
-      <h2>My Expert Areas</h2>
+      <h2>My Expert <span>Areas</span></h2>
       <p>
         As a Junior React.js Front-End Developer, I focus on creating
         user-friendly, responsive, and visually appealing websites.

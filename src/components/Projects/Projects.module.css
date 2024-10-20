@@ -1,0 +1,151 @@
+.projects_wrapper {
+  display: flex;
+  flex-direction: column;
+  background: url(/src/assets/section-bg.jpg) no-repeat center center;
+  background-size: cover;
+  align-items: center;
+  text-align: center;
+  padding: 100px 5%;
+  position: relative;
+}
+
+.projects_wrapper small {
+  font-size: 22px;
+  color: #ff8d37;
+}
+
+.projects_wrapper h1 {
+  font-size: 50px;
+  color: white;
+  margin: 20px 0;
+  letter-spacing: 1.5px;
+}
+
+.projects_wrapper h1 span {
+  color: white;
+  text-shadow: 4px 4px 0px #ff8d37;
+}
+
+.project_cards {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-top: 60px;
+  align-items: center;
+  padding: 0 6%;
+}
+
+.card {
+  background: linear-gradient(
+      180deg,
+      rgba(140, 140, 140, 0.4),
+      rgba(101, 53, 141, 0.8)
+    ),
+    url(./../../assets/section-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 4px 6px 15px rgba(255, 255, 255, 0.3);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 15px 30px rgba(197, 197, 197, 0.4);
+}
+
+.card img {
+  width: 160px;
+  height: 100px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover img {
+  transform: scale(1.05);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.content h3 {
+  color: white;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+
+.content p {
+  margin-top: 10px;
+  color: rgb(187, 187, 187);
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+@media (max-width: 1200px) {
+  .project_cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 992px) {
+  .project_cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .projects_wrapper h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .project_cards {
+    grid-template-columns: 1fr;
+  }
+
+  .projects_wrapper h1 {
+    font-size: 32px;
+  }
+
+  .card img {
+    width: 120px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 576px) {
+  .projects_wrapper h1 {
+    font-size: 28px;
+  }
+
+  .card {
+    padding: 15px;
+  }
+
+  .card img {
+    width: 100px;
+    height: 70px;
+  }
+
+  .content h3 {
+    font-size: 18px;
+  }
+
+  .content p {
+    font-size: 12px;
+  }
+}
