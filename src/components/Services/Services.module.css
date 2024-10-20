@@ -1,5 +1,5 @@
 .service_wrapper {
-  background: url(/src/assets/section-bg.jpg) no-repeat;
+  background: url(/src/assets/overlay.jpg);
   background-size: cover;
   align-items: center;
   text-align: center;

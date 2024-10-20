@@ -1,7 +1,7 @@
 .projects_wrapper {
   display: flex;
   flex-direction: column;
-  background: url(/src/assets/section-bg.jpg) no-repeat center center;
+  background: url(/src/assets/overlay.jpg) ;
   background-size: cover;
   align-items: center;
   text-align: center;
