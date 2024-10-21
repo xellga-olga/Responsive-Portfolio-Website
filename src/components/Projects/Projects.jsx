@@ -7,7 +7,7 @@ import P4 from "./../../assets/p-4.png";
 
 const Projects = () => {
   return (
-    <div className={`${stylesProjects.projects_wrapper} section`}>
+    <div id="portfolio" className={`${stylesProjects.projects_wrapper} section`}>
       <small>My Portfolio</small>
       <h1>
         Review My Latest <span>Projects</span>

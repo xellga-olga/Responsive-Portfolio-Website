@@ -19,6 +19,7 @@ function Slider() {
           pagination: false,
           arrow: false,
           focus: "center",
+          arrows: false,
           autoScroll: {
             speed: 1,
           },
@@ -31,6 +32,9 @@ function Slider() {
             },
             500: {
               perPage: 2,
+            },
+            320: {
+              perPage: 2, 
             },
           },
         }}

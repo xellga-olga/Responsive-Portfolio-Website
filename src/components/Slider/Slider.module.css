@@ -7,3 +7,26 @@
 .slide_img {
   border-radius: 20px;
 }
+
+
+@media (max-width: 768px) {
+  .slider_wrapper {
+    padding: 15px; 
+  }
+
+  .slide_img {
+    width: 70px;
+    height: 70px; 
+  }
+}
+
+@media (max-width: 500px) {
+  .slider_wrapper {
+    padding: 10px;
+  }
+
+  .slide_img {
+    width: 60px;
+    height: 60px; 
+  }
+}
