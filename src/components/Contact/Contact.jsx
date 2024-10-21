@@ -2,7 +2,7 @@ import stylesContact from "./../Contact/Contact.module.css";
 
 function Contact() {
   return (
-    <div className={`${stylesContact.contact_wrapper} section`}>
+    <div id="contact" className={`${stylesContact.contact_wrapper} section`}>
       <div className={stylesContact.contact_info}>
         <h2>
           Contact <span>Me</span>{" "}

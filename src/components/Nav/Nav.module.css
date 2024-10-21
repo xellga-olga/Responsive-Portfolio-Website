@@ -115,6 +115,13 @@
       height: 45px;
       width: 45px;
    }
+   .nav_wrapper .logo span {
+      font-size: 32px;
+   }
+
+   .nav_wrapper ul li a {
+      font-size: 16px;
+   }
 }
 
 @media screen and (max-width: 500px) {
@@ -128,11 +135,11 @@
    }
 
    .nav_wrapper .logo span {
-      font-size: 28px; 
+      font-size: 20px; 
    }
 
    .nav_wrapper .nav_btns i {
-      font-size: 24px; 
+      font-size: 22px; 
       height: 40px;
       width: 40px;
    }
