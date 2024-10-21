@@ -18,6 +18,11 @@
    height: 52px;
 }
 
+.header_container button a {
+   color: white;
+}
+
+
 .header_container h1 {
    font-size: 62px;
    color: white;

@@ -1,5 +1,6 @@
 import "./App.css";
 import About from "./components/About/About";
+import Blog from "./components/Blog/Blog";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
@@ -19,6 +20,8 @@ function App() {
       <Services />
       <Slider />
       <Projects />
+      <Slider />
+      <Blog />
       <Slider />
       <Contact />
       <Footer />

@@ -43,7 +43,16 @@ function Nav() {
         </li>
       </ul>
       <div className={stylesNav.nav_btns}>
-        <button>Hire Me</button>
+        <button>
+          <a
+            href="https://t.me/OlyaaPla"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={stylesNav.hire_me_button}
+          >
+            Hire Me
+          </a>
+        </button>
         <i onClick={menuHandler} className="ri-menu-5-fill"></i>
       </div>
     </div>
